@@ -11,6 +11,7 @@ name_3 = 'Chaz'
 height_in_3 = 69
 weight_lb_3 = 170
 
+# 703 is added to make up for the changes from metric measures
 BMI = float(((weight_lb_1) / (height_in_1 ** 2) * 703))
 print(f"BMI: {BMI}")
 if BMI < 25:
