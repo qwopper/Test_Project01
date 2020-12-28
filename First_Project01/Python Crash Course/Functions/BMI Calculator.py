@@ -9,7 +9,7 @@ weight_lb_2 = 100
 
 name_3 = 'Chaz'
 height_in_3 = 69
-weight_lb_3 = 170
+weight_lb_3 = 177
 
 # 703 is added to make up for the changes from metric measures
 BMI = float(((weight_lb_1) / (height_in_1 ** 2) * 703))
@@ -21,7 +21,7 @@ else:
 
 def BMI_Calc(name, weight_lb, height_in):
     BMI = int(((weight_lb) / (height_in ** 2) * 703))
-    print(f"BMI: {BMI}")
+    print(f"{name}'s BMI:\n{BMI}")
     if BMI < 25:
         print(f'{name} is not over weight')
     else:
