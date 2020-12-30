@@ -29,3 +29,4 @@ def BMI_Calc(name, weight_lb, height_in):
 BMI_Calc(name_1, weight_lb_1, height_in_1)
 BMI_Calc(name_2, weight_lb_2, height_in_2)
 BMI_Calc(name_3, weight_lb_2, height_in_3)
+
