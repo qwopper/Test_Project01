@@ -8,6 +8,8 @@ print(f'Collected {len(DPI_400)} different settings from pros...')
 print(f'The average sensitivty for 400 DPI is: {Average_Sensitivity_400}')
 print(f'The lowest number for 400 DPI is: {min(DPI_400)}')
 print(f'The highest number for 400 DPI is: {max(DPI_400)}')
+Suggested_DPI_400 = DPI_400.pop()
+print(Suggested_DPI_400)
 
 
 DPI_800 = [.485, .47, .485, .314, .235, .41, .215, .277, .4, .314, .283, .177, .177, .244, .3, .471, .3, .4, .314, .3, .37, .4, .44, .45, .4, .29, .41, .41, .314, .250, .380, .25, .31, .745, .5, .31, .485, .26, .33, .306, .27, .2, .245, .409, .409, .45, .345, .39 ,.49, .3, .4, .384, .4, .6 ,.24, .28 ,.3, .3, .3, .6, .3, .35, .65, .548, .5, .49, .3, .9, .311]
@@ -17,3 +19,5 @@ print(f'Collected {len(DPI_800)} different settings from pros...')
 print(f'The average sensitivity for 800 DPI is: {Average_Sensitivity_800}')
 print(f'The lowest number for 800 DPI is: {min(DPI_800)}')
 print(f'The highest number for 800 DPI is: {max(DPI_800)}')
+Suggested_DPI_800 = DPI_800.pop()
+print(Suggested_DPI_800)
