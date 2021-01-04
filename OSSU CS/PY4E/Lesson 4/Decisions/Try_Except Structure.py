@@ -1,4 +1,4 @@
-true_str = 'Hello Bob'
+true_str = 'Hello Bob' # The try and execpt method allows you to test your code while preventing traceback errors in the terminal
 try:
     int_str = int(true_str)
 except:
