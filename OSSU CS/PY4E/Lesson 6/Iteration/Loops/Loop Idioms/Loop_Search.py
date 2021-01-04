@@ -1,5 +1,6 @@
 found = False
 print(f'Before: {found}')
+print("Find 65")
 for value in [9, 23, 41, 65, 45, 64, 46]:
     if value == 65:
         found = True
