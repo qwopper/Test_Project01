@@ -20,7 +20,7 @@ while True:
                 smallest = min(numList)
                 largest = max(numList)
     except:
-            print("Invalid input")
+            print("Invalid input, please enter a numerical input!")
             continue
 
 print("Maximum is", largest)
